@@ -1,0 +1,68 @@
+// Place all the styles related to the wizards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+// Pre-determined variables
+$titlefont:'Berkshire Swash', cursive;
+
+// Typography
+
+body {
+  color: #3c2415;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #3c2415;
+}
+
+// Nav Bar
+
+// Main Section
+#main {
+  background-image:url("../assets/HP72-FP-00015.jpg");
+  background-size: cover;
+  height: 20%;
+}
+
+.crest {
+  max-width: 100%;
+  margin: 8% auto;
+}
+
+// House Section
+
+#houses {
+  background-color: #ffdd00;
+}
+
+.img-center {
+  max-width: 100%;
+  margin: 2% auto;
+}
+
+// Students Section
+
+#students {
+  background-color: #fafae2;
+}
+
+// Contact Section
+#contact {
+  background-color: #000000;
+  color: #fafae2;
+}
+
+// Contact Section
+#footer {
+  background-color: #000000;
+  color: #fafae2;
+  padding-top: 40px;
+}
+
+.copyright {
+  color: #a9a897;
+  font-size: 9px;
+}
